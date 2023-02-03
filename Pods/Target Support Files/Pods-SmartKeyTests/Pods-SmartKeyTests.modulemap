@@ -1,6 +1,0 @@
-framework module Pods_SmartKeyTests {
-  umbrella header "Pods-SmartKeyTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
