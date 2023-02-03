@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B70CFC4A534997FABF373C6 /* Pods_SmartKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31387CBFFCE9C2E7F1A47E75 /* Pods_SmartKey.framework */; };
+		8975EDC52937FFB400FB2523 /* PortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975EDC42937FFB400FB2523 /* PortfolioViewModel.swift */; };
+		8975EDC82938060400FB2523 /* PropertyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975EDC72938060400FB2523 /* PropertyCell.swift */; };
+		8975EDCA2939610700FB2523 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975EDC92939610600FB2523 /* MapView.swift */; };
+		8975EDCE293969D900FB2523 /* AppTapBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975EDCD293969D900FB2523 /* AppTapBarView.swift */; };
+		8975EDD229396FC300FB2523 /* CustomTapBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975EDD129396FC300FB2523 /* CustomTapBarView.swift */; };
+		8975EDD42939773500FB2523 /* CustomTapBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975EDD32939773500FB2523 /* CustomTapBarContainerView.swift */; };
+		8975EDD629397DBF00FB2523 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975EDD529397DBF00FB2523 /* TabBarItemsPreferenceKey.swift */; };
+		8975EDD82939821E00FB2523 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975EDD72939821E00FB2523 /* TabBarItem.swift */; };
+		8975EDDB2939906000FB2523 /* PortfolioNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975EDDA2939906000FB2523 /* PortfolioNavView.swift */; };
+		8975EDDD293990A200FB2523 /* AppNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975EDDC293990A200FB2523 /* AppNavView.swift */; };
+		89C6B9AF29145165004FF2E0 /* SmartKeyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B9AE29145165004FF2E0 /* SmartKeyApp.swift */; };
+		89C6B9B129145165004FF2E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B9B029145165004FF2E0 /* ContentView.swift */; };
+		89C6B9B329145169004FF2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C6B9B229145169004FF2E0 /* Assets.xcassets */; };
+		89C6B9B629145169004FF2E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C6B9B529145169004FF2E0 /* Preview Assets.xcassets */; };
+		89C6B9C02914516A004FF2E0 /* SmartKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B9BF2914516A004FF2E0 /* SmartKeyTests.swift */; };
+		89C6B9CA2914516A004FF2E0 /* SmartKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B9C92914516A004FF2E0 /* SmartKeyUITests.swift */; };
+		89C6B9CC2914516A004FF2E0 /* SmartKeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B9CB2914516A004FF2E0 /* SmartKeyUITestsLaunchTests.swift */; };
+		89C6B9DA29145EA7004FF2E0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B9D929145EA7004FF2E0 /* HomeScreen.swift */; };
+		89C6B9DC29146136004FF2E0 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B9DB29146136004FF2E0 /* PortfolioView.swift */; };
+		89C6B9DE2914619A004FF2E0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B9DD2914619A004FF2E0 /* LoginView.swift */; };
+		89C6B9F92914AF8F004FF2E0 /* addProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B9F82914AF8F004FF2E0 /* addProperty.swift */; };
+		89C6B9FB2914BAE8004FF2E0 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6B9FA2914BAE8004FF2E0 /* Property.swift */; };
+		89D1ACA72988FA8800D25FDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89D1ACA62988FA8800D25FDD /* GoogleService-Info.plist */; };
+		89D1ACAA298902E400D25FDD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 89D1ACA9298902E400D25FDD /* FirebaseAnalytics */; };
+		89D1ACAC298902E400D25FDD /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 89D1ACAB298902E400D25FDD /* FirebaseAnalyticsSwift */; };
+		89D1ACAE298902E400D25FDD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 89D1ACAD298902E400D25FDD /* FirebaseAuth */; };
+		89D1ACB0298902E400D25FDD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 89D1ACAF298902E400D25FDD /* FirebaseFirestore */; };
+		89D1ACB229892A1600D25FDD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1ACB129892A1600D25FDD /* SignUpView.swift */; };
+		BF408D9A9750775E2B515D1D /* Pods_SmartKey_SmartKeyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE606853BFE0F60EF6D9928 /* Pods_SmartKey_SmartKeyUITests.framework */; };
+		CD01B1ECF992D5A4E19DA2D2 /* Pods_SmartKeyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FC49CA83B9844707880541 /* Pods_SmartKeyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89C6B9BC2914516A004FF2E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C6B9A329145165004FF2E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C6B9AA29145165004FF2E0;
+			remoteInfo = SmartKey;
+		};
+		89C6B9C62914516A004FF2E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C6B9A329145165004FF2E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C6B9AA29145165004FF2E0;
+			remoteInfo = SmartKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31387CBFFCE9C2E7F1A47E75 /* Pods_SmartKey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F76DF8C0007E4A3B9A78FEB /* Pods-SmartKey-SmartKeyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartKey-SmartKeyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SmartKey-SmartKeyUITests/Pods-SmartKey-SmartKeyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66AD574A5BB83B396237D9E5 /* Pods-SmartKeyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartKeyTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartKeyTests/Pods-SmartKeyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8975EDC42937FFB400FB2523 /* PortfolioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewModel.swift; sourceTree = "<group>"; };
+		8975EDC72938060400FB2523 /* PropertyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCell.swift; sourceTree = "<group>"; };
+		8975EDC92939610600FB2523 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8975EDCD293969D900FB2523 /* AppTapBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTapBarView.swift; sourceTree = "<group>"; };
+		8975EDD129396FC300FB2523 /* CustomTapBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapBarView.swift; sourceTree = "<group>"; };
+		8975EDD32939773500FB2523 /* CustomTapBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapBarContainerView.swift; sourceTree = "<group>"; };
+		8975EDD529397DBF00FB2523 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		8975EDD72939821E00FB2523 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		8975EDDA2939906000FB2523 /* PortfolioNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioNavView.swift; sourceTree = "<group>"; };
+		8975EDDC293990A200FB2523 /* AppNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavView.swift; sourceTree = "<group>"; };
+		89C6B9AB29145165004FF2E0 /* SmartKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C6B9AE29145165004FF2E0 /* SmartKeyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartKeyApp.swift; sourceTree = "<group>"; };
+		89C6B9B029145165004FF2E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89C6B9B229145169004FF2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89C6B9B529145169004FF2E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89C6B9BB2914516A004FF2E0 /* SmartKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C6B9BF2914516A004FF2E0 /* SmartKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartKeyTests.swift; sourceTree = "<group>"; };
+		89C6B9C52914516A004FF2E0 /* SmartKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C6B9C92914516A004FF2E0 /* SmartKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartKeyUITests.swift; sourceTree = "<group>"; };
+		89C6B9CB2914516A004FF2E0 /* SmartKeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartKeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89C6B9D929145EA7004FF2E0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		89C6B9DB29146136004FF2E0 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		89C6B9DD2914619A004FF2E0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		89C6B9F82914AF8F004FF2E0 /* addProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addProperty.swift; sourceTree = "<group>"; };
+		89C6B9FA2914BAE8004FF2E0 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		89D1ACA62988FA8800D25FDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		89D1ACB129892A1600D25FDD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B0FC49CA83B9844707880541 /* Pods_SmartKeyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartKeyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1475DC4A911D71EF71BFBE /* Pods-SmartKeyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartKeyTests.release.xcconfig"; path = "Target Support Files/Pods-SmartKeyTests/Pods-SmartKeyTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAE606853BFE0F60EF6D9928 /* Pods_SmartKey_SmartKeyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartKey_SmartKeyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1961C8312A536EAF4502C7 /* Pods-SmartKey-SmartKeyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartKey-SmartKeyUITests.release.xcconfig"; path = "Target Support Files/Pods-SmartKey-SmartKeyUITests/Pods-SmartKey-SmartKeyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F02DF1138934D8D7B7EB3FAE /* Pods-SmartKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartKey.debug.xcconfig"; path = "Target Support Files/Pods-SmartKey/Pods-SmartKey.debug.xcconfig"; sourceTree = "<group>"; };
+		FACE4D7FCDF2C633843D94F6 /* Pods-SmartKey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartKey.release.xcconfig"; path = "Target Support Files/Pods-SmartKey/Pods-SmartKey.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89C6B9A829145165004FF2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D1ACAC298902E400D25FDD /* FirebaseAnalyticsSwift in Frameworks */,
+				89D1ACB0298902E400D25FDD /* FirebaseFirestore in Frameworks */,
+				89D1ACAE298902E400D25FDD /* FirebaseAuth in Frameworks */,
+				89D1ACAA298902E400D25FDD /* FirebaseAnalytics in Frameworks */,
+				5B70CFC4A534997FABF373C6 /* Pods_SmartKey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C6B9B82914516A004FF2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD01B1ECF992D5A4E19DA2D2 /* Pods_SmartKeyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C6B9C22914516A004FF2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF408D9A9750775E2B515D1D /* Pods_SmartKey_SmartKeyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C156E9897BAB8FCB624816 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F02DF1138934D8D7B7EB3FAE /* Pods-SmartKey.debug.xcconfig */,
+				FACE4D7FCDF2C633843D94F6 /* Pods-SmartKey.release.xcconfig */,
+				3F76DF8C0007E4A3B9A78FEB /* Pods-SmartKey-SmartKeyUITests.debug.xcconfig */,
+				CC1961C8312A536EAF4502C7 /* Pods-SmartKey-SmartKeyUITests.release.xcconfig */,
+				66AD574A5BB83B396237D9E5 /* Pods-SmartKeyTests.debug.xcconfig */,
+				BA1475DC4A911D71EF71BFBE /* Pods-SmartKeyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		660ED5D587CAB24816797423 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31387CBFFCE9C2E7F1A47E75 /* Pods_SmartKey.framework */,
+				CAE606853BFE0F60EF6D9928 /* Pods_SmartKey_SmartKeyUITests.framework */,
+				B0FC49CA83B9844707880541 /* Pods_SmartKeyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8975EDC32937FF0C00FB2523 /* PortfolioListView */ = {
+			isa = PBXGroup;
+			children = (
+				8975EDC42937FFB400FB2523 /* PortfolioViewModel.swift */,
+				89C6B9DB29146136004FF2E0 /* PortfolioView.swift */,
+				89C6B9F82914AF8F004FF2E0 /* addProperty.swift */,
+				89C6B9FA2914BAE8004FF2E0 /* Property.swift */,
+				8975EDC72938060400FB2523 /* PropertyCell.swift */,
+				8975EDC92939610600FB2523 /* MapView.swift */,
+			);
+			path = PortfolioListView;
+			sourceTree = "<group>";
+		};
+		8975EDCC293969B500FB2523 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8975EDCD293969D900FB2523 /* AppTapBarView.swift */,
+				8975EDD129396FC300FB2523 /* CustomTapBarView.swift */,
+				8975EDD32939773500FB2523 /* CustomTapBarContainerView.swift */,
+				8975EDD529397DBF00FB2523 /* TabBarItemsPreferenceKey.swift */,
+				8975EDD72939821E00FB2523 /* TabBarItem.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		8975EDD929398F5A00FB2523 /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				8975EDDA2939906000FB2523 /* PortfolioNavView.swift */,
+				8975EDDC293990A200FB2523 /* AppNavView.swift */,
+			);
+			path = CustomNavBar;
+			sourceTree = "<group>";
+		};
+		89C6B9A229145165004FF2E0 = {
+			isa = PBXGroup;
+			children = (
+				89C6B9AD29145165004FF2E0 /* SmartKey */,
+				89C6B9BE2914516A004FF2E0 /* SmartKeyTests */,
+				89C6B9C82914516A004FF2E0 /* SmartKeyUITests */,
+				89C6B9AC29145165004FF2E0 /* Products */,
+				24C156E9897BAB8FCB624816 /* Pods */,
+				660ED5D587CAB24816797423 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89C6B9AC29145165004FF2E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89C6B9AB29145165004FF2E0 /* SmartKey.app */,
+				89C6B9BB2914516A004FF2E0 /* SmartKeyTests.xctest */,
+				89C6B9C52914516A004FF2E0 /* SmartKeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89C6B9AD29145165004FF2E0 /* SmartKey */ = {
+			isa = PBXGroup;
+			children = (
+				89C6B9DD2914619A004FF2E0 /* LoginView.swift */,
+				89D1ACB129892A1600D25FDD /* SignUpView.swift */,
+				89D1ACB329892A2C00D25FDD /* User */,
+				89C6B9D829145E83004FF2E0 /* Views */,
+				89C6B9AE29145165004FF2E0 /* SmartKeyApp.swift */,
+				89C6B9B029145165004FF2E0 /* ContentView.swift */,
+				89D1ACA62988FA8800D25FDD /* GoogleService-Info.plist */,
+				89C6B9B229145169004FF2E0 /* Assets.xcassets */,
+				89C6B9B429145169004FF2E0 /* Preview Content */,
+			);
+			path = SmartKey;
+			sourceTree = "<group>";
+		};
+		89C6B9B429145169004FF2E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89C6B9B529145169004FF2E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89C6B9BE2914516A004FF2E0 /* SmartKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				89C6B9BF2914516A004FF2E0 /* SmartKeyTests.swift */,
+			);
+			path = SmartKeyTests;
+			sourceTree = "<group>";
+		};
+		89C6B9C82914516A004FF2E0 /* SmartKeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89C6B9C92914516A004FF2E0 /* SmartKeyUITests.swift */,
+				89C6B9CB2914516A004FF2E0 /* SmartKeyUITestsLaunchTests.swift */,
+			);
+			path = SmartKeyUITests;
+			sourceTree = "<group>";
+		};
+		89C6B9D829145E83004FF2E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8975EDD929398F5A00FB2523 /* CustomNavBar */,
+				8975EDCC293969B500FB2523 /* CustomTabBar */,
+				8975EDC32937FF0C00FB2523 /* PortfolioListView */,
+				89C6B9D929145EA7004FF2E0 /* HomeScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89D1ACB329892A2C00D25FDD /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89C6B9AA29145165004FF2E0 /* SmartKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C6B9CF2914516A004FF2E0 /* Build configuration list for PBXNativeTarget "SmartKey" */;
+			buildPhases = (
+				09FA0403B98CB51D293F8377 /* [CP] Check Pods Manifest.lock */,
+				89C6B9A729145165004FF2E0 /* Sources */,
+				89C6B9A829145165004FF2E0 /* Frameworks */,
+				89C6B9A929145165004FF2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartKey;
+			packageProductDependencies = (
+				89D1ACA9298902E400D25FDD /* FirebaseAnalytics */,
+				89D1ACAB298902E400D25FDD /* FirebaseAnalyticsSwift */,
+				89D1ACAD298902E400D25FDD /* FirebaseAuth */,
+				89D1ACAF298902E400D25FDD /* FirebaseFirestore */,
+			);
+			productName = SmartKey;
+			productReference = 89C6B9AB29145165004FF2E0 /* SmartKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89C6B9BA2914516A004FF2E0 /* SmartKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C6B9D22914516A004FF2E0 /* Build configuration list for PBXNativeTarget "SmartKeyTests" */;
+			buildPhases = (
+				CE0F77C479AFCA1DD578CD88 /* [CP] Check Pods Manifest.lock */,
+				89C6B9B72914516A004FF2E0 /* Sources */,
+				89C6B9B82914516A004FF2E0 /* Frameworks */,
+				89C6B9B92914516A004FF2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89C6B9BD2914516A004FF2E0 /* PBXTargetDependency */,
+			);
+			name = SmartKeyTests;
+			productName = SmartKeyTests;
+			productReference = 89C6B9BB2914516A004FF2E0 /* SmartKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89C6B9C42914516A004FF2E0 /* SmartKeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C6B9D52914516A004FF2E0 /* Build configuration list for PBXNativeTarget "SmartKeyUITests" */;
+			buildPhases = (
+				6EE0A1472CB95B53537AB089 /* [CP] Check Pods Manifest.lock */,
+				89C6B9C12914516A004FF2E0 /* Sources */,
+				89C6B9C22914516A004FF2E0 /* Frameworks */,
+				89C6B9C32914516A004FF2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89C6B9C72914516A004FF2E0 /* PBXTargetDependency */,
+			);
+			name = SmartKeyUITests;
+			productName = SmartKeyUITests;
+			productReference = 89C6B9C52914516A004FF2E0 /* SmartKeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89C6B9A329145165004FF2E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					89C6B9AA29145165004FF2E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					89C6B9BA2914516A004FF2E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 89C6B9AA29145165004FF2E0;
+					};
+					89C6B9C42914516A004FF2E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 89C6B9AA29145165004FF2E0;
+					};
+				};
+			};
+			buildConfigurationList = 89C6B9A629145165004FF2E0 /* Build configuration list for PBXProject "SmartKey" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89C6B9A229145165004FF2E0;
+			packageReferences = (
+				89D1ACA8298902E400D25FDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 89C6B9AC29145165004FF2E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89C6B9AA29145165004FF2E0 /* SmartKey */,
+				89C6B9BA2914516A004FF2E0 /* SmartKeyTests */,
+				89C6B9C42914516A004FF2E0 /* SmartKeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89C6B9A929145165004FF2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C6B9B629145169004FF2E0 /* Preview Assets.xcassets in Resources */,
+				89C6B9B329145169004FF2E0 /* Assets.xcassets in Resources */,
+				89D1ACA72988FA8800D25FDD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C6B9B92914516A004FF2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C6B9C32914516A004FF2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09FA0403B98CB51D293F8377 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartKey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE0A1472CB95B53537AB089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartKey-SmartKeyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0F77C479AFCA1DD578CD88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartKeyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89C6B9A729145165004FF2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8975EDDD293990A200FB2523 /* AppNavView.swift in Sources */,
+				8975EDC82938060400FB2523 /* PropertyCell.swift in Sources */,
+				89C6B9B129145165004FF2E0 /* ContentView.swift in Sources */,
+				8975EDD629397DBF00FB2523 /* TabBarItemsPreferenceKey.swift in Sources */,
+				89C6B9AF29145165004FF2E0 /* SmartKeyApp.swift in Sources */,
+				89C6B9F92914AF8F004FF2E0 /* addProperty.swift in Sources */,
+				8975EDCA2939610700FB2523 /* MapView.swift in Sources */,
+				89D1ACB229892A1600D25FDD /* SignUpView.swift in Sources */,
+				8975EDD42939773500FB2523 /* CustomTapBarContainerView.swift in Sources */,
+				8975EDD229396FC300FB2523 /* CustomTapBarView.swift in Sources */,
+				8975EDC52937FFB400FB2523 /* PortfolioViewModel.swift in Sources */,
+				89C6B9DA29145EA7004FF2E0 /* HomeScreen.swift in Sources */,
+				89C6B9DE2914619A004FF2E0 /* LoginView.swift in Sources */,
+				89C6B9FB2914BAE8004FF2E0 /* Property.swift in Sources */,
+				8975EDD82939821E00FB2523 /* TabBarItem.swift in Sources */,
+				8975EDCE293969D900FB2523 /* AppTapBarView.swift in Sources */,
+				89C6B9DC29146136004FF2E0 /* PortfolioView.swift in Sources */,
+				8975EDDB2939906000FB2523 /* PortfolioNavView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C6B9B72914516A004FF2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C6B9C02914516A004FF2E0 /* SmartKeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C6B9C12914516A004FF2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C6B9CC2914516A004FF2E0 /* SmartKeyUITestsLaunchTests.swift in Sources */,
+				89C6B9CA2914516A004FF2E0 /* SmartKeyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89C6B9BD2914516A004FF2E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C6B9AA29145165004FF2E0 /* SmartKey */;
+			targetProxy = 89C6B9BC2914516A004FF2E0 /* PBXContainerItemProxy */;
+		};
+		89C6B9C72914516A004FF2E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C6B9AA29145165004FF2E0 /* SmartKey */;
+			targetProxy = 89C6B9C62914516A004FF2E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89C6B9CD2914516A004FF2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89C6B9CE2914516A004FF2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89C6B9D02914516A004FF2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02DF1138934D8D7B7EB3FAE /* Pods-SmartKey.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartKey/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thesis.SmartKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_USE_INTEGRATED_DRIVER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89C6B9D12914516A004FF2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FACE4D7FCDF2C633843D94F6 /* Pods-SmartKey.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartKey/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thesis.SmartKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_USE_INTEGRATED_DRIVER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89C6B9D32914516A004FF2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66AD574A5BB83B396237D9E5 /* Pods-SmartKeyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thesis.SmartKeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartKey.app/SmartKey";
+			};
+			name = Debug;
+		};
+		89C6B9D42914516A004FF2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1475DC4A911D71EF71BFBE /* Pods-SmartKeyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thesis.SmartKeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartKey.app/SmartKey";
+			};
+			name = Release;
+		};
+		89C6B9D62914516A004FF2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F76DF8C0007E4A3B9A78FEB /* Pods-SmartKey-SmartKeyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thesis.SmartKeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartKey;
+			};
+			name = Debug;
+		};
+		89C6B9D72914516A004FF2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1961C8312A536EAF4502C7 /* Pods-SmartKey-SmartKeyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thesis.SmartKeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartKey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89C6B9A629145165004FF2E0 /* Build configuration list for PBXProject "SmartKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C6B9CD2914516A004FF2E0 /* Debug */,
+				89C6B9CE2914516A004FF2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C6B9CF2914516A004FF2E0 /* Build configuration list for PBXNativeTarget "SmartKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C6B9D02914516A004FF2E0 /* Debug */,
+				89C6B9D12914516A004FF2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C6B9D22914516A004FF2E0 /* Build configuration list for PBXNativeTarget "SmartKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C6B9D32914516A004FF2E0 /* Debug */,
+				89C6B9D42914516A004FF2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C6B9D52914516A004FF2E0 /* Build configuration list for PBXNativeTarget "SmartKeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C6B9D62914516A004FF2E0 /* Debug */,
+				89C6B9D72914516A004FF2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89D1ACA8298902E400D25FDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89D1ACA9298902E400D25FDD /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89D1ACA8298902E400D25FDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		89D1ACAB298902E400D25FDD /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89D1ACA8298902E400D25FDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		89D1ACAD298902E400D25FDD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89D1ACA8298902E400D25FDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		89D1ACAF298902E400D25FDD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89D1ACA8298902E400D25FDD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 89C6B9A329145165004FF2E0 /* Project object */;
+}
